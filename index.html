@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/icon.png" type="image/png" sizes="48x48" />
+    <title>Cinema Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="movie-container">
+      <label>Pick a movie</label>
+      <select id="movie">
+        <option value="10" id="movieTheater1">Airplane</option>
+        <option value="12" id="movieTheater2">The Square</option>
+        <option value="14" id="movieTheater3">Öğretmen Kemal</option>
+        <option value="9" id="movieTheater4">One piece RED</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div id="container" class="container">
+      <div id="screen" class="screen"></div>
+    </div>
+    <p id="text" class="text">You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span></p>
+    <div id="buttons" class="buttons displayNone">
+      <button class="buy">Buy</button>
+      <button class="cancel">Cancel</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
