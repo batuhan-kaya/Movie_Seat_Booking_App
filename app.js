@@ -22,19 +22,13 @@ function updateMovieTheater() {
   if (optionID === "movieTheater1") {
     screen.style.backgroundImage = "url(./images/airplane.jpg)";
     movieTheater();
-  }
-
-  if (optionID === "movieTheater2") {
+  } else if (optionID === "movieTheater2") {
     screen.style.backgroundImage = "url(./images/thesquare.jpg)";
     movieTheater(5);
-  }
-
-  if (optionID === "movieTheater3") {
+  } else if (optionID === "movieTheater3") {
     screen.style.backgroundImage = "url(./images/ogretmenkemal.jpg)";
     movieTheater(5);
-  }
-
-  if (optionID === "movieTheater4") {
+  } else if (optionID === "movieTheater4") {
     screen.style.backgroundImage = "url(./images/red.jpg)";
     movieTheater(8);
   }
