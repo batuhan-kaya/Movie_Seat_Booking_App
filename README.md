@@ -10,6 +10,8 @@ I made additions from myself to the project in a youtube video
 * Movie images
 * Seat numbers
 
+[Live Demo](https://movie-seat-booking-app.vercel.app/)
+
 **Screenshot**
 ![Screenshot](https://i.ibb.co/m0QYhz4/cinema-Booking.png)
 
